@@ -15,17 +15,8 @@ $padding-sp: 15px;
 
 $base-font-family: "Noto Sans JP", sans-serif;
 $english-font-family:"Gotu", sans-serif;
+$number-font-family: "Lato", sans-serif;
 // ※検証ツールでしっかり反映されているか確認する
-
-body {
-  font-family: $base-font-family;
-}
-
-// フォントウェイト
-$regular: 300;
-$normal: 400;
-$medium:500;
-$bold: 700;
 
 ////////////////////
 // 色の指定
@@ -37,3 +28,15 @@ $font-color:#0D2936;
 $red:#C94800;
 $bg-green:#DDF0F1;
 $white:#fff;
+
+
+body {
+  font-family:$base-font-family;
+  color:$font-color;
+}
+
+// フォントウェイト
+$regular: 400;
+$medium:500;
+$bold: 700;
+
