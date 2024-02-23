@@ -70,11 +70,13 @@
     }
 }
 .campaign-list__discount-number{
-    font-size: rem(40);
+    font-size: rem(32);
     line-height: 1;
     font-weight: $bold;
     color:$main-green;
     font-family: $number-font-family;
+    @include mq('md'){
+        font-size: rem(40);
+    }
 }
-
 

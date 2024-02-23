@@ -15,6 +15,10 @@
 .voice-item__head{
     border-bottom:1px solid $main-green ;
     padding-bottom: rem(4);
+    @include mq('md'){
+        display: flex;
+    
+    }
 }
 .voice-item__profile{
     font-size: rem(12);
@@ -30,7 +34,7 @@
     margin-top: rem(8);
     }
 }
-.voice-item__image{
+.voice-item_image{
     aspect-ratio: 151/117;
     margin-top: rem(9);
     max-width: rem(151);
